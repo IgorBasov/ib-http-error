@@ -40,7 +40,7 @@ Server error
 
 - `HTTPError` is inherited from `Error` => instances of `HTTPError` are throwable.
 - Have full stacktrace.
-- Support of auto filling of error messages by its code (using require('http').STATUS_CODES).
+- Support of auto filling of error messages by its code (using `require('http').STATUS_CODES`).
 
 ## Usage
 
@@ -48,7 +48,7 @@ Server error
 Creates an error with the status and message.
 
 #### `HTTPError(status)`
-Creates an error with the status and corresponding message from http.STATUS_CODES.
+Creates an error with the status and corresponding message from `http.STATUS_CODES`.
 
 #### `HTTPError(message)`
 Creates an error with the message. Status code will be set to `500`.
