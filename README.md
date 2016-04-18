@@ -7,7 +7,7 @@ Minimalist module that helps to handle HTTP errors in your Node.js apps.
 ## Example
 
 ```javascript
-const HTTPError = require('./index.js');
+const HTTPError = require('ib-http-error');
 const express = require('express');
 const app = express();
 
