@@ -1,0 +1,20 @@
+
+{
+  "name": "ig-http-error",
+  "version": "0.1.0",
+  "description": "HTTP errors module for node.js",
+  "main": "index.js",
+  "scripts": {},
+  "author": "Igor G. Basov <basovigorg@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IgorBasov/ib-http-error"
+  },
+  "keywords": [
+    "error",
+    "http",
+    "status code"
+  ]
+}
