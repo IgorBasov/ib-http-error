@@ -1,5 +1,5 @@
 {
-  "name": "ig-http-error",
+  "name": "ib-http-error",
   "version": "1.0.1",
   "description": "HTTP errors module for node.js",
   "main": "index.js",
