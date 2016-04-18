@@ -1,7 +1,7 @@
 'use strict';
 
 const CustomError = require('./lib/custom-error.js');
-const http = require('http');
+let http;
 
 module.exports = class HTTPError extends CustomError {
   constructor (status, message) {
@@ -9,6 +9,9 @@ module.exports = class HTTPError extends CustomError {
       message = status;
       status = 500;
     } else if (typeof(message) === 'undefined') {
+      if (!http) {
+        http = require('http');
+      }
       message = http.STATUS_CODES[status];
     }
     message = message || '';
